@@ -1,0 +1,105 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 1em;
+}
+/* Header */
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    display: flex;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+body a {
+    text-decoration: none;
+    color: rgb(95, 114, 203);
+}
+
+hr {
+    padding: 0; 
+    margin: 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* Main Container */
+.container {
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.projects {
+    width: 90%;
+    padding: 10px;
+
+}
+
+.education {
+    width: 90%;
+    padding: 20px;
+}
+
+.work-experience {
+    width: 90%;
+    padding: 20px;
+}
+
+
+/* Reviews */
+.review {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+}
+
+.review-card {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius:10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    
+    .container {
+        width:100%;
+        display:block;
+    }
+    
+    .review { 
+        display: flex;
+        flex-direction: column;
+        border-radius:10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
